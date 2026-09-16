@@ -1,0 +1,127 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #0a0a0a;
+  color: #c8c0b4;
+  line-height: 1.8;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* NAV */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 16px 5vw;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid #1a1815;
+}
+.nav-logo { font-size: 1rem; font-weight: 600; color: #f5f0e8; letter-spacing: -0.01em; }
+.nav-links { display: flex; gap: 2rem; list-style: none; align-items: center; }
+.nav-links a { font-size: 0.85rem; color: #8a7e6f; transition: color 0.2s; }
+.nav-links a:hover { color: #f5f0e8; }
+.nav-cta { background: #c9a96e !important; color: #0a0a0a !important; padding: 8px 20px !important; border-radius: 6px; font-weight: 600 !important; }
+.nav-cta:hover { background: #d4b87a !important; }
+
+/* HERO */
+.hero {
+  padding: 160px 5vw 100px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hero-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #c9a96e; margin-bottom: 12px; }
+.hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 400; color: #f5f0e8; line-height: 1.15; margin-bottom: 20px; }
+.hero-sub { font-size: 1.05rem; color: #8a7e6f; max-width: 600px; margin: 0 auto 32px; line-height: 1.8; }
+.hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+/* BUTTONS */
+.btn-primary {
+  display: inline-block; background: #c9a96e; color: #0a0a0a;
+  padding: 14px 28px; border-radius: 6px; font-size: 0.9rem;
+  font-weight: 600; font-family: inherit; transition: background 0.2s;
+}
+.btn-primary:hover { background: #d4b87a; }
+.btn-outline {
+  display: inline-block; border: 1px solid #3d3830; color: #c8c0b4;
+  padding: 14px 28px; border-radius: 6px; font-size: 0.9rem;
+  font-family: inherit; transition: all 0.2s;
+}
+.btn-outline:hover { border-color: #c9a96e; color: #f5f0e8; }
+
+/* SECTIONS */
+.section { padding: 80px 5vw; max-width: 1000px; margin: 0 auto; }
+.section-light { background: #0f0e0c; }
+.section-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #c9a96e; margin-bottom: 8px; text-align: center; }
+.section h2 { font-size: clamp(1.6rem, 3vw, 2rem); font-weight: 400; color: #f5f0e8; text-align: center; margin-bottom: 40px; }
+
+/* GRIDS */
+.grid-two { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.grid-three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+
+/* CARDS */
+.card {
+  background: #141210; border: 1px solid #1a1815; border-radius: 10px; padding: 32px;
+}
+.card h3 { font-size: 1.1rem; font-weight: 600; color: #f5f0e8; margin-bottom: 10px; }
+.card p { font-size: 0.92rem; color: #8a7e6f; line-height: 1.8; }
+
+/* BEER CARDS */
+.beer-card {
+  background: #141210; border: 1px solid #1a1815; border-radius: 10px; padding: 32px; text-align: center;
+}
+.beer-emoji { font-size: 2.5rem; margin-bottom: 16px; }
+.beer-card h3 { font-size: 1.15rem; font-weight: 600; color: #f5f0e8; margin-bottom: 4px; }
+.beer-abv { font-size: 0.78rem; color: #c9a96e; font-weight: 600; letter-spacing: 0.06em; margin-bottom: 14px; }
+.beer-card p:last-child { font-size: 0.9rem; color: #8a7e6f; line-height: 1.75; text-align: left; }
+
+/* STEPS */
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+.step { text-align: center; }
+.step-number {
+  width: 44px; height: 44px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: rgba(201, 169, 110, 0.1); color: #c9a96e;
+  font-weight: 700; font-size: 1rem; margin-bottom: 16px;
+}
+.step h3 { font-size: 1.05rem; font-weight: 600; color: #f5f0e8; margin-bottom: 8px; }
+.step p { font-size: 0.9rem; color: #8a7e6f; line-height: 1.75; }
+
+/* TAPROOM */
+.taproom-content { max-width: 680px; margin: 0 auto; }
+.taproom-content > p { font-size: 0.95rem; color: #8a7e6f; margin-bottom: 20px; line-height: 1.85; }
+.taproom-details { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; padding-top: 40px; border-top: 1px solid #1a1815; }
+.taproom-details h3 { font-size: 0.9rem; font-weight: 600; color: #c9a96e; margin-bottom: 8px; }
+.taproom-details p { font-size: 0.85rem; color: #8a7e6f; line-height: 1.7; }
+
+/* CTA */
+.section-cta {
+  padding: 100px 5vw; text-align: center;
+  background: linear-gradient(180deg, #0a0a0a 0%, #141210 100%);
+  border-top: 1px solid #1a1815;
+}
+.section-cta h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 400; color: #f5f0e8; max-width: 600px; margin: 0 auto 16px; }
+.section-cta p { font-size: 0.95rem; color: #8a7e6f; max-width: 520px; margin: 0 auto 32px; line-height: 1.8; }
+
+/* FOOTER */
+.footer { padding: 60px 5vw 30px; border-top: 1px solid #1a1815; }
+.footer-top { display: flex; justify-content: space-between; gap: 40px; max-width: 1000px; margin: 0 auto; padding-bottom: 40px; }
+.footer-logo { font-size: 1rem; font-weight: 600; color: #f5f0e8; margin-bottom: 8px; }
+.footer-tagline { font-size: 0.82rem; color: #5a5248; max-width: 280px; line-height: 1.7; }
+.footer-links { display: flex; gap: 60px; }
+.footer-links h4 { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #5a5248; margin-bottom: 12px; }
+.footer-links ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.footer-links a { font-size: 0.82rem; color: #6a6258; transition: color 0.2s; }
+.footer-links a:hover { color: #c9a96e; }
+.footer-bottom { max-width: 1000px; margin: 0 auto; padding-top: 20px; border-top: 1px solid #1a1815; }
+.footer-bottom p { font-size: 0.72rem; color: #3d3830; text-align: center; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .grid-two, .grid-three, .steps, .taproom-details { grid-template-columns: 1fr; }
+  .footer-top { flex-direction: column; }
+  .footer-links { gap: 30px; }
+}
