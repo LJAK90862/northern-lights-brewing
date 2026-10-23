@@ -7,6 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Globalize workspace
+.globalize/
+
 node_modules
 dist
 dist-ssr
@@ -22,3 +25,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# i18n catalog artifacts (compiled from .po files)
+src/locales/*/messages.js
+src/locales/*/messages.mjs
+src/locales/*/messages.ts

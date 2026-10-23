@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-10-23 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/App.jsx:182
+msgid "© 2026 Northern Lights Brewing Co. All rights reserved. Brewed above the 66th parallel."
+msgstr ""
+
+#: src/App.jsx:62
+msgid "4.8% ABV"
+msgstr ""
+
+#: src/App.jsx:87
+msgid "500 litres at a time. Every batch is numbered and dated. When it's gone, it's gone. We'd rather make something perfect than something scalable. The world is big enough to appreciate small things."
+msgstr ""
+
+#: src/App.jsx:68
+msgid "6.5% ABV"
+msgstr ""
+
+#: src/App.jsx:56
+msgid "7.2% ABV"
+msgstr ""
+
+#: src/App.jsx:55
+msgid "Arctic Pine IPA"
+msgstr ""
+
+#: src/App.jsx:24
+msgid "Beer that speaks every language."
+msgstr ""
+
+#: src/App.jsx:67
+msgid "Birchwood Stout"
+msgstr ""
+
+#: src/App.jsx:100
+msgid "Borders are for maps, not for beer."
+msgstr ""
+
+#: src/App.jsx:86
+msgid "Brew small"
+msgstr ""
+
+#: src/App.jsx:63
+msgid "Brewed during the three months when the sun never sets. Crisp, clean, and cold enough to cut through a summer night that never gets dark. The locals call it \"the one that crosses every border without stopping.\""
+msgstr ""
+
+#: src/App.jsx:162
+msgid "Brewery"
+msgstr ""
+
+#: src/App.jsx:176
+msgid "Careers"
+msgstr ""
+
+#: src/App.jsx:124
+msgid "Come find us. Bring your own glass."
+msgstr ""
+
+#: src/App.jsx:139
+msgid "Contact"
+msgstr ""
+
+#: src/App.jsx:23
+msgid "Craft beer from the edge of the Arctic Circle"
+msgstr ""
+
+#: src/App.jsx:158
+msgid "Craft beer from the edge of the Arctic Circle. Brewed locally. Enjoyed globally. Translated for everyone."
+msgstr ""
+
+#: src/App.jsx:51
+msgid "Every bottle tells a story in any language."
+msgstr ""
+
+#: src/App.jsx:82
+msgid "Every ingredient comes from within 200 kilometres of the brewery. Our barley grows in fields that see midnight sun. Our water filters through volcanic rock for a thousand years before it reaches us."
+msgstr ""
+
+#: src/App.jsx:27
+msgid "Explore our beers"
+msgstr ""
+
+#: src/App.jsx:28
+msgid "Find the taproom"
+msgstr ""
+
+#: src/App.jsx:115
+msgid "Fire brewed, ice cold"
+msgstr ""
+
+#: src/App.jsx:92
+msgid "From a village of 400 people to bottle shops in 12 countries. The beer doesn't change when it crosses a border. The labels do. We translate everything because someone on the other side deserves to know what they're drinking."
+msgstr ""
+
+#: src/App.jsx:150
+msgid "Get in touch"
+msgstr ""
+
+#: src/App.jsx:35
+msgid "Going global, staying local."
+msgstr ""
+
+#: src/App.jsx:25
+msgid "Great beer doesn't need translation, but great stories do. We brew in a place where the northern lights dance across the sky and the water runs so pure it doesn't need filtering. From our tiny brewery above the 66th parallel, we send bottles to every corner of the world."
+msgstr ""
+
+#: src/App.jsx:69
+msgid "Heated with birchwood from the forest behind the brewery. The smoke adds a whisper of flavour you won't find anywhere else. So dark you can't see through it. We ship this one everywhere and the label is in six languages because people kept asking."
+msgstr ""
+
+#: src/App.jsx:140
+msgid "hello@northernlightsbrewing.no<0/>Or just show up. We're always here."
+msgstr ""
+
+#: src/App.jsx:131
+msgid "Hours"
+msgstr ""
+
+#: src/App.jsx:14
+#: src/App.jsx:76
+#: src/App.jsx:166
+msgid "How We Brew"
+msgstr ""
+
+#: src/App.jsx:171
+msgid "Info"
+msgstr ""
+
+#. Accessible name of the language switcher
+#: src/components/LanguageSwitcher.jsx:17
+msgid "Language"
+msgstr ""
+
+#: src/App.jsx:148
+msgid "Life's too short to drink beer you can't read about."
+msgstr ""
+
+#: src/App.jsx:135
+msgid "Location"
+msgstr ""
+
+#: src/App.jsx:61
+msgid "Midnight Sun Lager"
+msgstr ""
+
+#: src/App.jsx:10
+#: src/App.jsx:157
+msgid "Northern Lights Brewing Co."
+msgstr ""
+
+#: src/App.jsx:77
+msgid "Old methods, new reach."
+msgstr ""
+
+#: src/App.jsx:108
+msgid "Our labels are printed in Norwegian, English, German, Japanese, Spanish and French. Not because we had to. Because someone in Osaka wrote us a letter saying they couldn't read the back of the bottle, and that felt wrong. Now every word on every bottle is in every language we ship to."
+msgstr ""
+
+#: src/App.jsx:104
+msgid "Our spent grain feeds the cattle next door. Our wastewater irrigates the barley fields. The bottles come back, get washed, and go out again. Nothing leaves the loop. Sustainability isn't a marketing word here. It's just Tuesday."
+msgstr ""
+
+#: src/App.jsx:12
+#: src/App.jsx:34
+#: src/App.jsx:164
+msgid "Our Story"
+msgstr ""
+
+#: src/App.jsx:128
+msgid "People come from all over. Last month we had visitors from Tokyo, Buenos Aires, and a town in Latvia we'd never heard of. They all said the same thing: this is worth the trip. We think so too, but we're biased."
+msgstr ""
+
+#: src/App.jsx:175
+msgid "Press"
+msgstr ""
+
+#: src/App.jsx:112
+msgid "Seven people run this entire brewery. We don't have a marketing department. We have a brewer who writes the copy, a designer who draws the labels, and five people who do everything else. Going international didn't require more people. It required better systems."
+msgstr ""
+
+#: src/App.jsx:91
+msgid "Ship everywhere"
+msgstr ""
+
+#: src/App.jsx:173
+msgid "Shipping"
+msgstr ""
+
+#: src/App.jsx:111
+msgid "Small team, big world"
+msgstr ""
+
+#: src/App.jsx:136
+msgid "Somewhere above the 66th parallel<0/>Follow the fjord, turn at the red barn"
+msgstr ""
+
+#: src/App.jsx:81
+msgid "Source locally"
+msgstr ""
+
+#: src/App.jsx:107
+msgid "Speak every language"
+msgstr ""
+
+#: src/App.jsx:174
+msgid "Stockists"
+msgstr ""
+
+#: src/App.jsx:15
+#: src/App.jsx:167
+msgid "Taproom"
+msgstr ""
+
+#: src/App.jsx:57
+msgid "Tastes like walking through a pine forest after rain. We forage the tips ourselves in late spring when the new growth is still bright green. Bitter enough to wake you up, smooth enough to keep you drinking."
+msgstr ""
+
+#: src/App.jsx:13
+#: src/App.jsx:50
+#: src/App.jsx:165
+msgid "The Beers"
+msgstr ""
+
+#: src/App.jsx:123
+msgid "The Taproom"
+msgstr ""
+
+#: src/App.jsx:127
+msgid "The taproom seats 30 people. We don't take reservations. The menu changes every week because we brew what we feel like brewing. Bring cash or card, we don't mind. Bring your own glass and we'll knock a krone off your first pour."
+msgstr ""
+
+#: src/App.jsx:39
+msgid "Three friends who met at a fishing village in northern Norway. One brewed beer in her garage. One ran a boat. One couldn't stop talking about how the whole world should taste this. That last one was probably right."
+msgstr ""
+
+#: src/App.jsx:132
+msgid "Thursday — Sunday<0/>14:00 — 22:00"
+msgstr ""
+
+#: src/App.jsx:16
+msgid "Visit Us"
+msgstr ""
+
+#: src/App.jsx:116
+msgid "We heat our kettles with birchwood. We cool our tanks with Arctic air. Old methods produce things that new methods can't replicate. The world has enough industrial lager. It doesn't need another one from us."
+msgstr ""
+
+#: src/App.jsx:126
+msgid "We're open Thursday to Sunday, tucked into the side of a hill above the fjord. There's no sign on the road because everyone around here already knows where we are. If you're visiting from somewhere else, follow the smell."
+msgstr ""
+
+#: src/App.jsx:43
+msgid "What began as a local obsession is now reaching bars and bottle shops across borders and time zones. We didn't plan to go international. The beer just started showing up in places we'd never been. Turns out good things don't need a passport, just a bottle cap."
+msgstr ""
+
+#: src/App.jsx:99
+msgid "What We Believe"
+msgstr ""
+
+#: src/App.jsx:38
+msgid "Where it started"
+msgstr ""
+
+#: src/App.jsx:42
+msgid "Where it's going"
+msgstr ""
+
+#: src/App.jsx:149
+msgid "Whether you're in Oslo, Osaka, or that town in Latvia, we want you to know exactly what's in your glass. Every ingredient, every story, every word. In your language."
+msgstr ""
+
+#: src/App.jsx:103
+msgid "Zero waste, full flavour"
+msgstr ""
